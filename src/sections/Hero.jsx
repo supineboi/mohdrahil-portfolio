@@ -16,16 +16,22 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden"
     >
       {/* Background Video */}
-      <div className="absolute inset-0 w-full h-full">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src={personalInfo.profileVideoUrl} type="video/mp4" />
-        </video>
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <div className="absolute inset-0 w-full h-full" style={{ transform: 'scale(1.5)' }}>
+          <iframe
+            src={personalInfo.profileVideoEmbedUrl}
+            className="absolute pointer-events-none"
+            style={{ 
+              width: '100%',
+              height: '84%',
+              border: 'none'
+            }}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Portfolio Video for resume"
+          />
+        </div>
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/60 dark:bg-black/70"></div>
       </div>

@@ -11,7 +11,7 @@ export const personalInfo = {
   phone: "+91 7987105532",
   location: "India",
   profileImage: profileImage,
-  profileVideoUrl: "https://youtu.be/afXCPiPcstI",
+  profileVideoEmbedUrl: "https://www.youtube.com/embed/afXCPiPcstI?autoplay=1&mute=1&loop=1&playlist=afXCPiPcstI&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&vq=hd1080",
   social: {
     linkedin: "https://linkedin.com/in/mohdrahilkhan14",
     github: "https://github.com/supineboi",
