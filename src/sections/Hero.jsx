@@ -4,7 +4,6 @@ import Avatar from '../components/Avatar';
 import Button from '../components/Button';
 import SocialLinks from '../components/SocialLinks';
 import { personalInfo, summary } from '../data/resumeData';
-import profileVideo from '../assets/Videos/profile-video.mp4';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -25,7 +24,7 @@ const Hero = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src={profileVideo} type="video/mp4" />
+          <source src={personalInfo.profileVideoUrl} type="video/mp4" />
         </video>
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/60 dark:bg-black/70"></div>

@@ -10,8 +10,8 @@ export const personalInfo = {
   email: "khanmohdrahil44@gmail.com",
   phone: "+91 7987105532",
   location: "India",
-  profileImage: profileImage, // Replace with your actual photo
-  
+  profileImage: profileImage,
+  profileVideoUrl: "https://youtu.be/afXCPiPcstI",
   social: {
     linkedin: "https://linkedin.com/in/mohdrahilkhan14",
     github: "https://github.com/supineboi",
