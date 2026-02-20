@@ -84,7 +84,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-10"
         >
           <Button
-            href="/resume.pdf"
+            href="/mohdrahil-portfolio/resume.pdf"
             download
             variant="primary"
             size="lg"
