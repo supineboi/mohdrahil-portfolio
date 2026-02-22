@@ -23,7 +23,7 @@ const Hero = () => {
             className="absolute pointer-events-none"
             style={{ 
               width: '100%',
-              height: '84%',
+              height: '100%',
               border: 'none'
             }}
             frameBorder="0"
