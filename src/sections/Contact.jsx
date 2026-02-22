@@ -22,7 +22,7 @@ const Contact = () => {
       >
         <div className="bg-gradient-to-br from-primary-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-10 shadow-xl border border-gray-200 dark:border-gray-700">
           <div className="mb-8">
-            <p className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+            <p className="font-semibold text-gray-900 dark:text-white mb-2">
               {personalInfo.email}
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400">
